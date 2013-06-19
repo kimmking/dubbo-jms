@@ -27,7 +27,7 @@ dubbo-jms
   
 ### jms客户端连接配置
     <bean class="org.apache.activemq.ActiveMQConnectionFactory" id="queueConnectionFactory">
-    	    <property name="brokerURL"><value>tcp://localhost:61617</value></property>
+    	    <property name="brokerURL"><value>tcp://localhost:61616</value></property>
     </bean>
     <bean class="org.apache.activemq.command.ActiveMQQueue" id="queue" autowire="constructor">
 	    <constructor-arg value="DUBBO"/>
